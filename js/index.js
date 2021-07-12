@@ -70,5 +70,12 @@ homePage.addEventListener('load', event => {
     event.target.style.background = 'yellow';
 })
 
+// focus
+const images = document.querySelectorAll('img');
+console.log(images);
 
+const funBusImage = images[0];
 
+funBusImage.addEventListener('focus', event => {
+    event.target.style.border = '5px solid red';
+})
