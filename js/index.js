@@ -63,3 +63,12 @@ document.addEventListener('wheel', event => {
     logoHeading.style.color = 'orange';
 })
 
+// load 
+const homePage = document.querySelector('.home');
+
+homePage.addEventListener('load', event => {
+    event.target.style.background = 'yellow';
+})
+
+
+
