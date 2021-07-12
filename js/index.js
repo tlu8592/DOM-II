@@ -56,3 +56,10 @@ document.addEventListener('keydown', event => {
     }
 })
 
+// wheel 
+const logoHeading = document.querySelector('.logo-heading');
+
+document.addEventListener('wheel', event => {
+    logoHeading.style.color = 'orange';
+})
+
